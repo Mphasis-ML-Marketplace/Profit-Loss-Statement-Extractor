@@ -2,7 +2,7 @@
 This solution extracts all tabular data pertaining to the Profit &amp; Loss Statements in a company's annual report.
 
 ## Product overview
-This solution takes an annual report in a digital PDF format as input, and returns the JSON data corresponding to the extracted tabular data from the report'sProfit &amp; Loss statements. The solution utilizes computer vision techniques to identify the pages with tables, as well as text-based classification techniques to determine the relevance of the pages in question. This is done extremely quickly, rendering it unnecessary for an individual to go through hundreds of pages before finding the required information.
+This solution takes an annual report in a digital PDF format as input, and returns the JSON data corresponding to the extracted tabular data from the report's Profit &amp; Loss statements. The solution utilizes computer vision techniques to identify the pages with tables, as well as text-based classification techniques to determine the relevance of the pages in question. This is done extremely quickly, rendering it unnecessary for an individual to go through hundreds of pages before finding the required information.
 
 ## Product Highlight 
 * The Profit &amp; Loss Data Extractor uses text classification techniques to identify the pages containing information about Profit &amp; Loss. It then utilizes table detection and extraction algorithms to narrow the search to only those pages that contain tabular data, before finally retrieving it.
